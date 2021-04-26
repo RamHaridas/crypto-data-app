@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const BASE_URL = "https://coinranking1.p.rapidapi.com/";
-const API_KEY = "b88133c4ecmshc37539d81f77fe8p129603jsn79c139fd103a";
+const API_KEY = "YOUR API KEY";
 const twitter = "assets/icons/twitter.svg";
 const facebook = "assets/icons/facebook.svg";
 const youtube = "assets/icons/youtube.svg";
