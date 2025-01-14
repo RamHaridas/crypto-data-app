@@ -7,9 +7,7 @@ $vmName = "your-vm-name"
 $vm = Get-AzVM -ResourceGroupName $resourceGroupName -Name $vmName
 
 # Update the tag
-$vm.Tags["appName"] = "your value"
-$vm.Tags["patchContact"] = "your-value"
-
+$tags = @{"appName"="yourval"; "patchContact"="yourval"}
 # Save the changes
-Set-AzVM -ResourceGroupName $resourceGroupName -Name $vmName -Tag $vm.Tags
+New-AzTag -ResourceId $vm.id -Tag $tags
 
