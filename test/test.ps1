@@ -1,3 +1,5 @@
+Remove-AzVMExtension -ResourceGroupName "resourcegroupname" -Name "extensionname" -VMName "vmname"
+
 $resourceGroupName = "your-resource-group-name"
 $vmName = "your-vm-name"
 # $vmNameList = @("vmnam1", "vmname2", "vmname3")
